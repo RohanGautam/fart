@@ -1,8 +1,10 @@
 # Fart
 
-In `node_modules/normalize_strings/index.js`, change `./charmap` to `./charmap.json`. It's an [Active oull request](https://github.com/tehsis/normalize/pull/7/commits/4cde679f8549bac9e704e5ac79434179032d644d) but the library owner seems to have forgotten about it.
+- In `node_modules/normalize_strings/index.js`, change `./charmap` to `./charmap.json`. It's an [Active oull request](https://github.com/tehsis/normalize/pull/7/commits/4cde679f8549bac9e704e5ac79434179032d644d) but the library owner seems to have forgotten about it.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
+- [cut audio clips](https://clideo.com/cut-audio)
+- [fart sound used](https://freesound.org/people/DSISStudios/sounds/241000/)
+  This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
 
 ## Development server
 
