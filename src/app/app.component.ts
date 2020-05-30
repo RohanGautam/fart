@@ -20,4 +20,11 @@ export class AppComponent implements OnInit {
       this.syllableCount.push(syllable(word));
     });
   }
+
+  playAudio(audioFilePath: string) {
+    let audio = new Audio();
+    audio.src = audioFilePath;
+    audio.load();
+    audio.play();
+  }
 }
