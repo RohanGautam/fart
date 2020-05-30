@@ -1,5 +1,7 @@
 # Fart
 
+## Live @ https://rohangautam.github.io/fart/ !
+
 - In `node_modules/normalize_strings/index.js`, change `./charmap` to `./charmap.json`. It's an [Active oull request](https://github.com/tehsis/normalize/pull/7/commits/4cde679f8549bac9e704e5ac79434179032d644d) but the library owner seems to have forgotten about it.
 
 - [cut audio clips](https://clideo.com/cut-audio)
