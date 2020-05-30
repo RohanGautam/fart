@@ -4,6 +4,7 @@
 
 - [cut audio clips](https://clideo.com/cut-audio)
 - [fart sound used](https://freesound.org/people/DSISStudios/sounds/241000/)
+- [play audio](https://stackoverflow.com/a/47067623)
   This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
 
 ## Development server
