@@ -1,4 +1,30 @@
-<input #wordInput type="text" placeholder="Enter word" />
-<button (click)="getSyllables(wordInput.value)">Fart</button>
-<!-- <button (click)="playAudio('assets/fart-short.wav')">fart</button> -->
-<!-- <p *ngIf="syllableCount != null">{{ syllableCount }}</p> -->
+<nb-layout>
+  <nb-layout-header fixed>
+    <!-- Insert header here -->
+  </nb-layout-header>
+
+  <nb-layout-column>
+    <nb-card>
+      <nb-card-body>
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <input
+              nbInput
+              #wordInput
+              id="wordInput"
+              type="text"
+              placeholder="Enter word"
+            />
+            <button nbButton (click)="getSyllables(wordInput.value)">
+              Fart
+            </button>
+          </div>
+        </div>
+      </nb-card-body>
+    </nb-card>
+  </nb-layout-column>
+
+  <nb-layout-footer fixed>
+    <!-- Insert footer here -->
+  </nb-layout-footer>
+</nb-layout>
