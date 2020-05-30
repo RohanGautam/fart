@@ -1,2 +1,3 @@
 <input #wordInput type="text" placeholder="Enter word" />
 <button (click)="getSyllables(wordInput.value)">Get syllables</button>
+<p *ngIf="syllableCount != null">{{ syllableCount }}</p>

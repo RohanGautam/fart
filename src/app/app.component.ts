@@ -8,11 +8,16 @@ const syllable = require('syllable');
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
+  syllableCount: Array<number>;
+
   constructor() {}
 
   ngOnInit() {}
 
-  getSyllables(word: string) {
-    console.log(syllable(word));
+  getSyllables(sentence: string) {
+    this.syllableCount = [];
+    sentence.split(' ').forEach((word) => {
+      this.syllableCount.push(syllable(word));
+    });
   }
 }
