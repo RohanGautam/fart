@@ -10,8 +10,8 @@ const syllable = require('syllable');
 export class AppComponent implements OnInit {
   syllableCount: Array<number>;
   audioFilePath = 'assets/fart-short.wav';
-  wordPause = 500; //milliseconds
-  syllablePause = 200;
+  wordPause = 400; //milliseconds
+  syllablePause = 100;
 
   constructor() {}
 

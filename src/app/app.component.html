@@ -8,22 +8,30 @@
     <nb-card>
       <nb-card-body>
         <div class="row">
-          <div class="col d-flex justify-content-center">
+          <div class="col-sm-12 col-md-9 d-flex justify-content-center">
             <input
               nbInput
+              fullWidth
               #wordInput
+              (keyup.enter)="getSyllables(wordInput.value)"
               id="wordInput"
               type="text"
               placeholder="Enter word"
             />
-            <button nbButton (click)="getSyllables(wordInput.value)">
+          </div>
+          <div class="col-sm-12 col-md-3 d-flex justify-content-center">
+            <button
+              nbButton
+              status="warning"
+              (click)="getSyllables(wordInput.value)"
+            >
               Fart
             </button>
           </div>
         </div>
         <div class="row">
           <div class="col d-flex justify-content-center">
-            <img src="assets/fart.svg" alt="" height="200" />
+            <img class="image" src="assets/fart.svg" alt="" />
           </div>
         </div>
       </nb-card-body>
@@ -31,6 +39,6 @@
   </nb-layout-column>
 
   <nb-layout-footer fixed>
-    <!-- Insert footer here -->
+    <p>&copy; Absolutely no copyright whatsoever</p>
   </nb-layout-footer>
 </nb-layout>
